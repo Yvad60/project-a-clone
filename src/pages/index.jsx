@@ -1,5 +1,7 @@
+import SuccessStories from "@/components/sections/SuccessStories";
 import { Inter } from "@next/font/google";
 import Head from "next/head";
+import Hero from "../components/sections/Hero";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className="text-red-600">Hello</h1>
+        <Hero />
+        <SuccessStories />
       </main>
     </>
   );

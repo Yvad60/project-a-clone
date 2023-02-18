@@ -9,7 +9,17 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        blackRedGradient:
+          "linear-gradient(145deg, rgb(255, 13, 79), rgb(0, 0, 0));",
+        "black-transparent-gradient":
+          "linear-gradient(0deg, rgb(0, 0, 0), transparent);",
+      },
+      fontFamily: {
+        sans: ["IBM Plex Sans", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
